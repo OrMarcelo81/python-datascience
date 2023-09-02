@@ -1,6 +1,6 @@
 {
-    "user": "<user>",
-    "password": "<password>",
+    "user": "alumno",
+    "password": "ucom2023",
     "host": "ucom.cn00zjprcawm.us-east-2.rds.amazonaws.com",
     "database": "UCOM"
 }
