@@ -8,6 +8,7 @@ with open("config.json", "r") as f:
     user = config['user']
     password = config['password']
     host = config['host']
+    port = config['port']
     database = config['database']
 
 # Establecer la conexión
@@ -15,6 +16,7 @@ conn = mysql.connector.connect(
     user = user,
     password = password,
     host = host,
+    port = port,
     database = database
 )
 
@@ -22,7 +24,7 @@ conn = mysql.connector.connect(
 cursor = conn.cursor()
 
 # Ejecutar una consulta
-consulta = "SELECT * FROM PROVEEDORES_DEL_ESTADO;"
+consulta = "SELECT * FROM ucom.clientes LIMIT 5;"
 cursor.execute(consulta)
 
 # Obtener los resultados de la consulta
