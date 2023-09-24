@@ -1,6 +1,7 @@
 {
     "user": "<user>",
     "password": "<password>",
-    "host": "ucom.cn00zjprcawm.us-east-2.rds.amazonaws.com",
+    "host": "0.tcp.sa.ngrok.io",
+    "port": 16584,
     "database": "UCOM"
 }
