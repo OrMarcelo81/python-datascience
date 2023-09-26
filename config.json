@@ -2,6 +2,6 @@
     "user": "<user>",
     "password": "<password>",
     "host": "0.tcp.sa.ngrok.io",
-    "port": 16584,
-    "database": "UCOM"
+    "port": 10737,
+    "database": "ucom"
 }
